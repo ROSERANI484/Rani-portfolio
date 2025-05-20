@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Linking the CSS file -->
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  crossorigin="anonymous"
+/>
+</head>
+
+</head>
+<body>
+    <!-- Nav Menu -->
+<!--<div class="container">
+  <nav id="header">
+    <div class="nav-logo">
+      <p class="nav_name">Logo</p>
+    </div>
+
+    <div class="nav-menu" id="mynavmenu">
+      <ul class="nav-menu-list">
+        <li class="nav-list">
+          <a href="#home" class="nav-link active-link">Home</a>
+          <div class="circle"></div>
+        </li>
+        <li class="nav-list">
+          <a href="#about" class="nav-link">About</a>
+          <div class="circle"></div>
+        </li>
+        <li class="nav-list">
+          <a href="#projects" class="nav-link">Projects</a>
+          <div class="circle"></div>
+        </li>
+        <li class="nav-list">
+          <a href="#contact" class="nav-link">Contact</a>
+          <div class="circle"></div>
+        </li>
+      </ul>
+    </div>
+
+    Dark mode-->
+    <!--<div class="mode">
+  <div class="moon-sun" id="toggle-Switch">
+    <i class="fa fa-moon" id="moon"></i>
+    <i class="fa fa-sun" id="sun"></i>
+  </div>
+</div>-->
+
+<!--<div class="nav-menu-btn">
+  <i class="fa fa-bars" onclick="mymenuFunction()"></i>
+</div>
+  </nav>-->
+<!-- Nav Menu -->
+<div class="container">
+  <nav id="header">
+    <div class="nav-logo">
+      <p class="nav_name">Logo</p>
+    </div>
+
+    <div class="nav-menu" id="mynavmenu">
+      <ul class="nav-menu-list">
+        <li class="nav-list"><a href="#home" class="nav-link" onclick="closeNavIfMobile()">Home</a></li>
+        <li class="nav-list"><a href="#about" class="nav-link" onclick="closeNavIfMobile()">About</a></li>
+        <li class="nav-list"><a href="#projects" class="nav-link" onclick="closeNavIfMobile()">Projects</a></li>
+        <li class="nav-list"><a href="#contact" class="nav-link" onclick="closeNavIfMobile()">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="nav-menu-btn">
+      <i class="fa fa-bars" onclick="mymenuFunction()"></i>
+    </div>
+  </nav>
+</div>
+
+
+
+
+
+
+
+
+ 
+<!-- Main -->
+<main class="wrapper">
+  <section class="featured-section" id="home">
+    <!-- LEFT SIDE TEXT -->
+    <div class="featured-box">
+
+       <!-- RIGHT SIDE IMAGE -->
+    <div class="featured-image">
+      <div class="image">
+        <img src="beautiful_girl.jpg" alt="Profile Picture">
+      </div>
+    </div>
+      <div class="featured-text">
+        <div class="hello">
+          <p>Hello, I'm</p>
+        </div>
+
+        <div class="featured-name">
+          <span class="typedText">Developer</span>
+        </div>
+
+        <div class="text-info">
+          <p>Hi, I'm Rose Rani — a creative web developer dedicated to building responsive and user-friendly websites.</p>
+        </div>
+
+        <div class="text-btn">
+          <button class="btn hire-btn">Hire Me</button>
+          <button class="btn">
+            Download CV <i class="fa fa-download"></i>
+          </button>
+        </div>
+
+        <!--<div class="social_icons">
+          <div class="icon"><i class="fab fa-instagram"></i></div>
+          <!-- LinkedIn 
+<div class="icon">
+  <a href="https://www.linkedin.com/in/rose-rani-05aa59283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+    <i class="fab fa-linkedin"></i>
+  </a>
+</div>
+          <div class="icon"><i class="fab fa-behance"></i></div>
+          <div class="icon">
+  <a href="https://github.com/ROSERANI484" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+</div>-->
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE IMAGE 
+    <div class="featured-image">
+      <div class="image">
+        <img src="beautiful_girl.jpg" alt="Profile Picture">
+      </div>
+    </div>-->
+  </section>
+</main>
+
+<!-- About Box -->
+<section class="section" id="about">
+  <div class="top-header">
+    <h1>About Me</h1>
+  </div>
+
+  <div class="about-main-container">
+    <!-- LEFT SIDE: About Info -->
+    <div class="about-info">
+      <figure class="about-me">
+        <img src="beautiful_girl.jpg" alt="Profile Image" class="profile" />
+        <figcaption>
+          <h1>Web Developer</h1>
+          <p>Hi, I'm Rose Rani — a creative web developer dedicated to building responsive and user-friendly websites.</p>
+        </figcaption>
+      </figure>
+      <button class="about-me-btn">Hire Me</button>
+    </div>
+
+    <!-- RIGHT SIDE: Skills -->
+    <div class="skills-section">
+      <div class="skill-box">
+        <span class="title">HTML</span>
+        <div class="skill-bar">
+          <span class="skill-per html">80%</span>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <span class="title">CSS</span>
+        <div class="skill-bar">
+          <span class="skill-per css">80%</span>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <span class="title">JavaScript</span>
+        <div class="skill-bar">
+          <span class="skill-per javascript">80%</span>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <span class="title">ReactJS</span>
+        <div class="skill-bar">
+          <span class="skill-per react">70%</span>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <span class="title">NodeJS</span>
+        <div class="skill-bar">
+          <span class="skill-per node">40%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!--Projects-->
+<section class="section" id="projects">
+    <div class="top-header">
+        <h1>Projects</h1>
+    </div>
+
+    <div class="project-container">
+        <div class="project-box">
+            <i class="uil uil-briefcase-alt"></i>
+            <h3>Amazon Clone</h3>
+        
+            <p><strong>UI Design:</strong> Clean, modern, and user-friendly interface.</p>
+            <p><strong>Tech:</strong> HTML, CSS, Bootstrap</p>
+            <div class="btn-group">
+                <a href="https://github.com/ROSERANI484/Amazon-clone.git" target="_blank" class="btn-project">GitHub</a>
+            </div>
+        </div>
+        <div class="project-box">
+            <i class="uil uil-briefcase-alt"></i>
+            <h3>PassGen App</h3>
+        
+            <p><strong>UI Design:</strong> Simple, clean, and responsive interface.</p>
+            <p><strong>Tech:</strong> ReactJS, JavaScript, HTML & CSS, Vite / Create React App</p>
+            <div class="btn-group">
+                <a href="https://github.com/ROSERANI484/Password_generator-pp.git" target="_blank" class="btn-project">GitHub</a>
+            </div>
+        </div>
+        <div class="project-box">
+            <i class="uil uil-briefcase-alt"></i>
+            <h3>Useful Website (PHP)</h3>
+            <p><strong>UI Design:</strong> Functional and clean layout with form handling.</p>
+            <p><strong>Tech:</strong> PHP, HTML, CSS, XAMPP, MySQL</p>
+            <div class="btn-group">
+                <a href="https://github.com/ROSERANI484/useful.git" target="_blank" class="btn-project">GitHub</a>
+            </div>
+        </div>
+         </div>
+    
+</section>
+
+<!-- Contact Info Section after Projects -->
+  <div class="top-header">
+        <h1>Contact Info</h1>
+    </div>
+<section class="section" id="contact">
+    <!--<div class="top-header">
+        <h1>Contact Info</h1>
+    </div>-->
+  <div class="row contact-row">
+    <div class="col contact-col">
+      <div class="contact-info">
+        <h2>Find me <i class="uil uil-corner-right-down"></i></h2>
+        <p><i class="uil uil-envelope"></i><span>Email: roserani484@gmail.com</span></p>
+        <p><i class="uil uil-phone"></i><span>Phone: 8271029284</span></p>
+      </div>
+    </div>
+
+    <!-- Right: Contact Form -->
+    <div class="col contact-col">
+      <div class="form-control">
+        <div class="form-inputs">
+          <input type="text" class="input-field" placeholder="Your Name">
+          <input type="email" class="input-field" placeholder="Your Email">
+        </div>
+        <input type="text" class="input-subject" placeholder="Subject">
+        <textarea placeholder="Message"></textarea>
+        <div class="form-button">
+          <button class="btn">Send <i class="uil uil-message"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</main>
+<!--Footer-->
+<footer>
+  <!--<div class="middle-footer">
+    <ul class="footer-menu">
+      <li class="footer_menu_list"><a href="#home">Home</a></li>
+      <li class="footer_menu_list"><a href="#about">About</a></li>
+      <li class="footer_menu_list"><a href="#projects">Projects</a></li>
+      <li class="footer_menu_list"><a href="#contact">Contact</a></li>
+    </ul>
+  </div>-->
+
+  <div class="footer-social-icons">
+             <div class="icon"><i class="fab fa-instagram"></i></div>
+         <!-- LinkedIn -->
+<div class="icon">
+  <a href="https://www.linkedin.com/in/rose-rani-05aa59283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+    <i class="fab fa-linkedin"></i>
+  </a>
+</div>
+          <div class="icon"><i class="fab fa-behance"></i></div>
+         <div class="icon">
+  <a href="https://github.com/ROSERANI484" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+</div>
+  </div>
+
+  <div class="bottom-footer">
+    <p>&copy; 2025 <a href="#home" style="text-decoration: none;">RoseRani</a> – All rights reserved</p>
+  </div>
+</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+</body>
+</html>
